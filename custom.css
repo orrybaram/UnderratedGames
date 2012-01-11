@@ -4,19 +4,55 @@
 
  /* Remove 'readers' and change to 'Gamers' */
 .titlebox span.word { 
-	display: none 
+    display: none 
 } 
 .titlebox span.number:after { 
-	content: " Gamers" 
+    content: " Gamers" 
 } 
-.flair-quote { 
-	border: 0; 
-	background: transparent url(http://e.thumbs.redditmedia.com/nfztHH91TvF-78zL.png) center center no-repeat; 
-	height: 64px; 
-	width: 64px; 
-	text-indent: -9999px 
+
+.titlebox .age {
+    float: left;
 }
 
-body {
-	
+
+/* Flair
+======================================*/
+
+/* Removes the standard flair styling */
+.flair-custom {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 0;
+    position: relative; 
 }
+
+.flair-mario {
+    background-image: url(%%mario%%);
+    height:17px;
+    width: 15px;
+    top: 1px;
+}
+
+.flair-majora {
+    background-image: url(%%majora%%);
+    height:17px;
+    width: 18px;
+    top: 1px;
+}
+
+.flair-lechuck {
+    background-image: url(%%lechuck%%);
+    height:19px;
+    width: 15px;
+    top: 3px;
+}
+
+.flair-quote {
+    background-image: url(%%quote%%);
+    height:19px;
+    width: 15px;
+    top: 3px;
+}
+
+
